@@ -17,18 +17,26 @@
 </ul>
 
 <hr />
-<h2> Preview</h2>
 
+<h2>Preview</h2>
 
-<ul>
-  <li>Login / Signup Screen</li>
-  <li>Home Screen – Resource listings</li>
-  <li>Profile Screen – User details</li>
-</ul>
+<h3>Authentication Flow</h3>
+<p align="center">
+  <img src="screenshots/signin.jpeg" width="30%" alt="Sign In Screen" />
+  <img src="screenshots/signup.jpeg" width="30%" alt="Sign Up Screen" />
+  <img src="screenshots/reset-password.jpeg" width="30%" alt="Reset Password Screen" />
+</p>
+
+<h3>Main Application</h3>
+<p align="center">
+  <img src="screenshots/Homescreen.jpeg" width="30%" alt="Home Screen" />
+  <img src="screenshots/add-newitems.jpeg" width="30%" alt="Add Items Screen" />
+  <img src="screenshots/profile.jpeg" width="30%" alt="Profile Screen" />
+</p>
 
 <hr />
 
-<h2>🚀 Features</h2>
+<h2> Features</h2>
 
 <ul>
   <li>🔐 Secure Login & Signup using Clerk (Expo SDK)</li>
@@ -41,7 +49,7 @@
 
 <hr />
 
-<h2>🧭 App Screens</h2>
+<h2> App Screens</h2>
 
 <ul>
   <li><strong>Login / Signup</strong> – Secure authentication via Clerk</li>
@@ -49,20 +57,8 @@
   <li><strong>Profile Screen</strong> – Shows user information and logout option</li>
 </ul>
 
-<hr />
 
-<h2>🔐 Authentication Flow</h2>
-
-<ul>
-  <li>Authentication is implemented using <strong>@clerk/clerk-expo</strong></li>
-  <li>No dummy or hardcoded login is used</li>
-  <li>Only authenticated users can access Home and Profile screens</li>
-  <li>User session is managed securely by Clerk</li>
-</ul>
-
-<hr />
-
-<h2>🛠️ Tech Stack</h2>
+<h2>Tech Stack</h2>
 
 <ul>
   <li><strong>React Native</strong> – Mobile app development</li>
@@ -72,9 +68,9 @@
   <li><strong>TypeScript</strong> – Type safety</li>
 </ul>
 
+<hr />
 
-
-<h2>⚙️ Installation & Setup</h2>
+<h2>Installation & Setup</h2>
 
 <h3>1️⃣ Clone the repository</h3>
 <pre>
@@ -99,7 +95,7 @@ EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
 
 <hr />
 
-<h2>▶️ Running the App</h2>
+<h2>Running the App</h2>
 
 <pre>
 npx expo start -c
@@ -110,8 +106,7 @@ npx expo start -c
   <li>Scan QR code → Run on Expo Go (physical device)</li>
 </ul>
 
-
-
+<hr />
 
 <h2>Technical Considerations</h2>
 
@@ -121,9 +116,4 @@ npx expo start -c
   <li>Unauthenticated users cannot access protected screens</li>
 </ul>
 
-
-
-
-<h2>📄 License</h2>
-
-<p>This project is developed for educational and demonstration purposes.</p>
+<hr />
