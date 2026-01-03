@@ -1,0 +1,129 @@
+<h1>ShareHub – Community Resource Sharing App</h1>
+
+<p><strong>ShareHub</strong> is a React Native mobile application built with <strong>Expo</strong> that enables authenticated users to <strong>share and request resources</strong> such as books, notes, tools, or devices within a college or community. The app uses <strong>real authentication via Clerk (Expo SDK)</strong> and implements a clean, protected navigation flow.</p>
+
+<hr />
+
+<h2>✨ Idea & Motivation</h2>
+
+<p>In colleges, students often buy items that others already own. ShareHub solves this real-world problem by encouraging <strong>resource sharing</strong> within a trusted, authenticated community.</p>
+
+<h3>Why ShareHub?</h3>
+<ul>
+  <li>♻️ Reduces unnecessary purchases</li>
+  <li>🤝 Encourages sharing and collaboration</li>
+  <li>🏫 Solves a real college/hostel problem</li>
+  <li>🔐 Authentication ensures trust and accountability</li>
+</ul>
+
+<hr />
+<h2> Preview</h2>
+
+
+<ul>
+  <li>Login / Signup Screen</li>
+  <li>Home Screen – Resource listings</li>
+  <li>Profile Screen – User details</li>
+</ul>
+
+<hr />
+
+<h2>🚀 Features</h2>
+
+<ul>
+  <li>🔐 Secure Login & Signup using Clerk (Expo SDK)</li>
+  <li>🚫 Protected routes – unauthenticated users cannot access app screens</li>
+  <li>🏠 Home Screen showing available shared resources</li>
+  <li>👤 Profile Screen displaying user details from Clerk</li>
+  <li>🚪 Logout functionality that ends the session properly</li>
+  <li>🧭 Smooth navigation using React Navigation</li>
+</ul>
+
+<hr />
+
+<h2>🧭 App Screens</h2>
+
+<ul>
+  <li><strong>Login / Signup</strong> – Secure authentication via Clerk</li>
+  <li><strong>Home Screen</strong> – Displays available resources shared by users</li>
+  <li><strong>Profile Screen</strong> – Shows user information and logout option</li>
+</ul>
+
+<hr />
+
+<h2>🔐 Authentication Flow</h2>
+
+<ul>
+  <li>Authentication is implemented using <strong>@clerk/clerk-expo</strong></li>
+  <li>No dummy or hardcoded login is used</li>
+  <li>Only authenticated users can access Home and Profile screens</li>
+  <li>User session is managed securely by Clerk</li>
+</ul>
+
+<hr />
+
+<h2>🛠️ Tech Stack</h2>
+
+<ul>
+  <li><strong>React Native</strong> – Mobile app development</li>
+  <li><strong>Expo (SDK 54)</strong> – Development & build tooling</li>
+  <li><strong>Clerk (Expo SDK)</strong> – Authentication & user management</li>
+  <li><strong>React Navigation</strong> – App navigation & screen transitions</li>
+  <li><strong>TypeScript</strong> – Type safety</li>
+</ul>
+
+
+
+<h2>⚙️ Installation & Setup</h2>
+
+<h3>1️⃣ Clone the repository</h3>
+<pre>
+git clone https://github.com/your-username/sharehub.git
+cd sharehub
+</pre>
+
+<h3>2️⃣ Install dependencies</h3>
+<pre>
+npm install --legacy-peer-deps
+</pre>
+
+<h3>3️⃣ Configure Clerk</h3>
+
+<p>Create a <code>.env</code> file in the root directory:</p>
+
+<pre>
+EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
+</pre>
+
+<p>You can get this key from the <strong>Clerk Dashboard</strong>.</p>
+
+<hr />
+
+<h2>▶️ Running the App</h2>
+
+<pre>
+npx expo start -c
+</pre>
+
+<ul>
+  <li>Press <strong>a</strong> → Run on Android Emulator</li>
+  <li>Scan QR code → Run on Expo Go (physical device)</li>
+</ul>
+
+
+
+
+<h2>Technical Considerations</h2>
+
+<ul>
+  <li>React Compiler is intentionally <strong>disabled</strong> (not supported in Expo SDK 54)</li>
+  <li>Always install native packages using <code>npx expo install</code></li>
+  <li>Unauthenticated users cannot access protected screens</li>
+</ul>
+
+
+
+
+<h2>📄 License</h2>
+
+<p>This project is developed for educational and demonstration purposes.</p>
